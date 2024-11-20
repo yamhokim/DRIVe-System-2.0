@@ -1,0 +1,5 @@
+General idea of the hand gesture recognition model:
+    - First get the RGB image/pixels from the camera
+    - Pass this image through a model that is specifically tailored to detect and segment the hand
+    - Then pass this through a CNN which will highlight the landmarks on the hand
+    - Finally, pass this through a feed forward network that will do the work of recognizing the specific hand gesture
